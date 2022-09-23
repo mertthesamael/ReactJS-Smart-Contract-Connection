@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 24px;
+}
+
+body{
+  background-color: grey;
+}
+
+.tokeninfo{
+  display: flex;
+}
+
+input[type=submit]{
+  border: 2px solid black;
+
+}
+
+.tsx{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ts{
+  background-color: rgba(13, 219, 64, 0.644);
+  margin: 1rem;
+}
